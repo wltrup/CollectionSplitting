@@ -2,8 +2,9 @@ import Foundation
 
 public extension Collection {
     
-    // splits self into an array of sub-sequences of self, each of count maxSize,
-    // except possibly for the last sub-sequence, which may be shorter.
+    /// Splits self into an array of sub-sequences of self, each of count `maxSize`,
+    /// except possibly for the last sub-sequence, which may be shorter.
+    ///
     func split(maxSize size: Int) -> [SubSequence] {
         return split(indices, maxSize: size).map {
             self[$0.startIndex ..< $0.endIndex]
