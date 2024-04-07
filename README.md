@@ -24,10 +24,6 @@ public extension Collection {
 
 **CollectionSplitting** is provided only as a Swift Package Manager package, because I'm moving away from CocoaPods and Carthage, and can be easily installed directly from Xcode.
 
-## Author
-
-Wagner Truppel, trupwl@gmail.com
-
 ## License
 
 **CollectionSplitting** is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
